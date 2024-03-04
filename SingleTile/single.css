@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    background-color: slateblue;
+    color: white;
+}
+
+
+/* heading section */
+.heading_section {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .heading_section h1{
+      margin-top: 7px;
+      letter-spacing: 10px;
+      font-weight : 700;
+      font-size: 40px;
+      color: black;
+  }
+  
+  .heading_section button{
+      height: 0px;
+      border: none;
+      background-color: transparent;
+      text-align: center;
+      font-size: 40px;
+      cursor: pointer;
+      color: black;
+      font-weight: 700;
+  }
+
+
+
+
+  /* tile section */
+.movieTiles{
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+/* single Tile */
+
+.Tile{
+    text-align: center;
+    background-color: rgb(129, 182, 236);
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 300px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+    bottom: 25px;
+}
+
+.left h1{
+   letter-spacing: 10px;
+   font-weight: 800;
+}
+
+
+.Tile h3{
+    background-color: rgb(129, 182, 236);
+    font-weight: 500;
+    font-size: 20px;
+}
+
+
+#plot{
+    background-color: rgb(129, 182, 236);
+}
+
+
+
+
+
+.images{
+    height: 400px;
+    width: 400px;
+    border-radius: 15px;
+    margin: 20px;
+    transition: transform 2s;
+    border: 1px solid white;
+}
+
+.images:hover{
+   transform: rotate(360deg);
+
+}
+

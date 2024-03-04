@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    background-color: slateblue;
+}
+
+
+.main{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    margin-top: 50px;
+    gap: 50px;
+}
+
+
+.main h1{
+    font-size: 40px;
+    letter-spacing: 10px;
+    font-weight: 700;
+}
+
+
+.main input{
+    width: 50%;
+    align-self: center;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+    border: none;
+    font-size: 20px;
+    background-color: whitesmoke;
+}
+
+
+/* Tiles */
+
+.movieTiles{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+
+/* single Tile */
+
+.Tile{
+    margin-top: 20px;
+    text-align: center;
+    background-color: rgb(129, 182, 236);
+    border: none;
+    border-radius: 10px;
+    width: 300px;
+    padding-bottom: 20px;
+}
+
+.Tile:hover{
+    scale : 105% ;
+    transition-delay: .1s;
+    transition-duration: .5s;
+    box-shadow: 5px 5px 20px black;
+}
+
+.Tile h3{
+    background-color: rgb(129, 182, 236);
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.images{
+    height: 250px;
+    width: 250px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+
+
+
+
+.ReadButton{
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    padding: 10px 20px;
+    width: 80%;
+    margin-top: 15px;
+    background-color: crimson;
+    font-weight: 500;
+    cursor: pointer;
+}
